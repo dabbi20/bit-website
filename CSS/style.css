@@ -32,6 +32,77 @@ body{
     justify-content: space-between;
 }
 
+.contenido-main {
+    font-size: 2.5rem;
+}
+
+.navegacion {
+    display: flex;
+}
+
+.nav-link{
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Diseños main */
+
+.contenido-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+   
+}
+
+.secciontitu{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.descripcion{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.ingredientes, .preparacion{
+    font-size: 1,2rem;
+    margin-bottom: 10px;
+}
+
+.ingredientes-list, .preparacion{
+
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+h4{
+    margin: 20px;
+}
+
+.tablajue{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden; /* Para bordes redondeados en la tabla */
+}
+
+.tablajue th, .tablajue td{
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 
 /*Footer*/
 
