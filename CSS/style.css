@@ -1,6 +1,29 @@
 
+/* Reseteo de margenes y pedding  */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Estilo General*/
+
+body{
+    font-family:'Arial', sans-serif ;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilos del header*/
+
+.header {
+
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
 
 /*Footer*/
 
