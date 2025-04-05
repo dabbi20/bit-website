@@ -58,45 +58,134 @@ body{
    
 }
 
-.secciontitu{
-    font-size: 1.8rem;
+/* Seccion de comida*/
+
+.comida {
+    background-color: #fff;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.secciontitu {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 3px solid #d30909; 
+    padding-bottom: 10px;
+}
+
+.descripcion {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center; 
+    line-height: 1.6;
+}
+
+.seccionsub {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.descripcion{
-    font-size: 1rem;
+.ingredientes {
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ingredientes-lis {
+    list-style-type: disc;
+    padding-left: 20px;
     margin-bottom: 20px;
 }
 
-.ingredientes, .preparacion{
-    font-size: 1,2rem;
+.ingredientes-lis li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.preparacion-titu {
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
-.ingredientes-list, .preparacion{
-
-    list-style-type: none;
-    padding-left: 20px;
+.preparacion {
+    list-style-type: decimal;
+    padding-left: 30px;
 }
 
-h4{
-    margin: 20px;
+.preparacion li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
 }
 
-.tablajue{
+/* Diseños tabla de juegos*/
+
+.tablajue {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
     background-color: #fff;
     border-radius: 8px;
-    overflow: hidden; /* Para bordes redondeados en la tabla */
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-.tablajue th, .tablajue td{
-    background-color: #f4f4f4;
+.tablajue th, .tablajue td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 1rem;
+    color: #333;
+}
+
+.tablajue th {
+    background-color: #333; 
+    color: #fff; 
     font-weight: bold;
 }
 
+
+.tablajue tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+.tablajue tr:hover {
+    background-color: #f1f1f1; 
+}
+
+.tablajue td {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.tablajue td:last-child {
+    width: 30%; 
+}
+
+.secciontitu {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center; 
+    border-bottom: 3px solid #d30909; 
+    padding-bottom: 10px;
+}
 
 
 
