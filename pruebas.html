@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+
+    <!--BREAKPOINT
+    Mobile Firts 
+    Viewport
+    <576px se dice que esto viene siendo una pantalla extra pequeña
+    Las pantallas que no sean pequeñas -> 576
+    Medium -> 768px
+    Grander -> 992px
+    Extra grandes -> 1200 px
+    Extra Extra grandes -> 1400 px
+
+    
+    
+    -->
+    <style>
+h1{
+
+    background-color: black;
+    color: white;
+    padding: 32px;
+
+
+   
+}
+@media screen and (min-width:576px) {
+      h1{
+        background-color: blue;
+      }  
+    }
+
+
+
+
+    @media screen and (max-width:768) {
+      h1{
+        background-color: red;
+      }  
+    }
+
+    
+    @media screen and (min-width:992) {
+      h1{
+        background-color: green;
+      }  
+    }
+
+
+
+
+    @media screen and (min-width:1200) {
+      h1{
+        background-color: brown;
+      }  
+    }
+
+
+
+    @media screen and (min-width:1400) {
+      h1{
+        background-color: purple;
+      }  
+    }
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Media queries</h1>
+    <hr>
+</body>
+</html>
